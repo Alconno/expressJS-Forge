@@ -1,0 +1,29 @@
+{
+  "name": "forge-task-2-express.js-crud",
+  "version": "1.0.0",
+  "description": "helo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "serve": "node web.js",
+    "dev": "nodemon web.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sequelize": "^4.28.19",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.0.3",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  }
+}
